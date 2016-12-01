@@ -89,7 +89,7 @@ foreach ($directions as $direction) {
 		break;
 	}
 }
-var_dump($visitedLocations);
+
 echo "Easter Bunny HQ is " . (abs($revisitedLocation['y']) + abs($revisitedLocation['x'])) . " blocks away from the starting point.";
 
 ?>
